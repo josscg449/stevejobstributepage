@@ -6,8 +6,8 @@ body {
   font-family: monospace;
 }
 #img-div {
-  margin-top: 50px;
-  margin-bottom: 50px;
+
+  margin: 50px auto;
 }
 #image {
   margin: auto;
@@ -71,5 +71,9 @@ header {
   }
   #image {
     box-shadow: none;
+  }
+  #img-div{
+    margin: auto;
+    width: 80%;
   }
   }
